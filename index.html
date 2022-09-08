@@ -14,9 +14,11 @@
 </head>
 
 <body>
+    <canvas id="canvas" style="position:fixed; bottom: 0px;">Canvas is not supported in your browser.</canvas>
+
     <div id="wrapper">
         <!-- 1. Tiêu đề -->
-        <h1>Been Together</h1>
+        <h1 style="font-size:40px; font-weight: 500;">Been Together</h1>
 
         <div id="clock-box">
             <div id="clock">
@@ -35,7 +37,7 @@
                 <p>Tùng đẹp trai</p>
             </div>
             <div id="heart">
-                ❤<anni>...</anni>
+                <span id="div_heart">❤</span><anni>...</anni>
             </div>
             <div class="two">
                 <!-- 5. Ảnh của bạn nữ -->
@@ -49,8 +51,8 @@
 
         <!-- Phần play nhạc (không cần thay đổi) -->
         <div id="music">
-            <!-- <audio loop autoplay controls>Your browser does not support the audio element.</audio> -->
-            <audio loop controls>Your browser does not support the audio element.</audio>
+            <audio loop autoplay controls>Your browser does not support the audio element.</audio>
+            <!-- <audio loop controls>Your browser does not support the audio element.</audio> -->
         </div>
 
         <!-- 7. Tiêu đề bên dưới -->
@@ -59,6 +61,7 @@
 
     <script src="app.js"></script>
     <script src="heart.js"></script>
+    <script src="firework.js"></script>
 </body>
 
 </html>
