@@ -59,7 +59,8 @@ time {
 }
 
 date {
-    font-size: 18px;
+    font-size: 25px;
+    color: #b90d46;
 }
 
 time {
@@ -182,6 +183,10 @@ footer {
 
     #wrapper h1 {
         margin-top: 0;
+    }
+
+    date {
+        font-size: 20px;
     }
 /* 
     canvas {
