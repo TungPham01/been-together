@@ -7,6 +7,7 @@ music = ['BuocQuaMuaCoDon-Vu-6879419'];
 
 document.addEventListener('DOMContentLoaded', function () {
       var rootTime = document.querySelector("time");
+      document.querySelector("anniv").textContent = `${(yourDate.getDate() > 9) ? yourDate.getDate() : "0" + yourDate.getDate()}-${(yourDate.getMonth() > 8) ? (yourDate.getMonth() + 1) : "0" + (yourDate.getMonth() + 1)}-${yourDate.getFullYear()}`;
 
       document.querySelector("anni").textContent = `${(yourDate.getDate() > 9) ? yourDate.getDate() : "0" + yourDate.getDate()}-${(yourDate.getMonth() > 8) ? (yourDate.getMonth() + 1) : "0" + (yourDate.getMonth() + 1)}-${yourDate.getFullYear()}`;
 
